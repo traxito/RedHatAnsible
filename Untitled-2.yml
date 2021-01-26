@@ -1,0 +1,8 @@
+---
+- name: Check web service on hosts
+  hosts: localhost
+  tasks:
+    - name: use uri module to check url
+      uri:
+        url: http://app1.3dcc.internal
+        status_code: 200
