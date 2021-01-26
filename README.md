@@ -1,2 +1,0 @@
-# RedHatAnsible
-RedHatAnsible
