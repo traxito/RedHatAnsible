@@ -1,0 +1,9 @@
+---
+- name: End to end smoke tests
+  hosts: app_servers:database_servers
+  gather_facts: true
+  become: true
+  tags:
+    - smoketest
+  roles:
+    - smoketest
